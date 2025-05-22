@@ -2,15 +2,15 @@
 
 # --- CONFIGURATION ---
 # !!! REVIEW AND SET THESE VARIABLES !!!
-YOUR_DOMAIN="" # Optional: Your domain (e.g., yourserver.example.com). If set, Nginx will be configured for it.
-EMAIL_FOR_LETSENCRYPT="" # Optional: Your email for Let's Encrypt (if YOUR_DOMAIN is set).
+YOUR_DOMAIN="ser.shaktt.site" # Optional: Your domain (e.g., yourserver.example.com). If set, Nginx will be configured for it.
+EMAIL_FOR_LETSENCRYPT="khaliyqabdullah23@gmail.com" # Optional: Your email for Let's Encrypt (if YOUR_DOMAIN is set).
 SSH_PORT="22" # Your current SSH port.
 
-XRAY_SOCKS_PORT="10808" # Port for Xray SOCKS5 proxy
+XRAY_SOCKS_PORT="1080" # Port for Xray SOCKS5 proxy
 XRAY_SOCKS_USER="your_socks_user" # Username for SOCKS5 proxy
 XRAY_SOCKS_PASS="YourStrongS0cksP@sswOrd" # Password for SOCKS5 proxy - CHANGE THIS!
 
-UDP_ECHO_SERVER_PORT="12345" # Port for the Python UDP Echo Server
+UDP_ECHO_SERVER_PORT="1024" # Port for the Python UDP Echo Server
 # --- END CONFIGURATION ---
 
 # --- SCRIPT START ---
