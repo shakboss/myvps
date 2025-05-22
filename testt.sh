@@ -7,8 +7,8 @@ BADVPN_INTERNAL_PORT="7300" # Internal port for badvpn-udpgw
 SSH_PORT="22" # Your server's SSH port
 
 # New SSH user for VPN (will be created if it doesn't exist)
-VPN_USER="vpnuser"
-VPN_PASSWORD="YourStrongPasswordHere" # CHANGE THIS!
+VPN_USER="one"
+VPN_PASSWORD="one" # CHANGE THIS!
 
 # --- Script Start ---
 echo "VPN Server Setup Script"
